@@ -8,3 +8,6 @@
 
 # june 30 2025, day 3: Build my 1st test coustom model. Needs a lot of work as of now. Will try transfer learning tomorrow
 -> build/downloaded pen_paper_classifier with my own dataset
+
+# july 1, day 29:tried building a model with my own data set. If works fine in validation dataaset but flops on random testing data
+-> tired a lot to debug this problem but i wasn't succesful☹.
