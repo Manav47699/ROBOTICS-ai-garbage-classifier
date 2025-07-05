@@ -1,5 +1,7 @@
 # ROBOTICS-ai-garbage-classifier
 
+-> I will be posting my progress report here :)).
+
 # june 28 2025, day 1: Planned my 2nd ROBOTICS project to be a AI_garbage_classifier_system after PID line follower robot.
 -> researched about the roadmap on achiving this product and also search for the ways to make it most effective.
 
@@ -17,3 +19,6 @@
 
 # july 3, day 6: setup yolov5 and got it runing somehow after hours of chatgpting🥱
 -> built my first yolo model, downloaded it and set up everything.
+
+# july 5, day 7: Design a demo hack-a-thon project's ckt in tinkerCAD and it works 😁.
+-> here the link to the ckt --> https://www.tinkercad.com/things/2TMN1thgRsH-techo-morph-project
