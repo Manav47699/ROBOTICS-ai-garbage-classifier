@@ -20,5 +20,8 @@
 # july 3, day 6: setup yolov5 and got it runing somehow after hours of chatgpting🥱
 -> built my first yolo model, downloaded it and set up everything.
 
-# july 5, day 7: Design a demo hack-a-thon project's ckt in tinkerCAD and it works 😁.
+# july 4, day 7: learned how to use TinkerCAD for ckt designing and testing.
+-> created a account in TinkerCAD and built a few ckts testing different components such as Arduino UNO, leds, IR and ultrasonic sensors and many more !
+
+# july 5, day 8: Design a demo hack-a-thon project's ckt in tinkerCAD and it works 😁.
 -> here the link to the ckt --> https://www.tinkercad.com/things/2TMN1thgRsH-techo-morph-project
