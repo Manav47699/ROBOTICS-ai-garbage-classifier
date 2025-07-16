@@ -25,3 +25,6 @@
 
 # july 5, day 8: Design a demo hack-a-thon project's ckt in tinkerCAD and it works 😁.
 -> here the link to the ckt --> https://www.tinkercad.com/things/2TMN1thgRsH-techo-morph-project
+
+# july 16, day 9: Connect the python code in VSCODE with the CPP code in Arduino IDE with the help of virtual serial communication. AND IT WORK😎😎😎😎. Man sometimes I feel like a true GENIUS
+-> used this -> https://freevirtualserialports.com/ . also fuck gemini. that fool couldn't solve in 3 hrs what chatGPT did in 15 mins.
