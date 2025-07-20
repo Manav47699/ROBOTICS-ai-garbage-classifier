@@ -28,3 +28,7 @@
 
 # july 16, day 9: Connect the python code in VSCODE with the CPP code in Arduino IDE with the help of virtual serial communication. AND IT WORK😎😎😎😎. Man sometimes I feel like a true GENIUS
 -> used this -> https://freevirtualserialports.com/ . also fuck gemini. that fool couldn't solve in 3 hrs what chatGPT did in 15 mins.
+
+# july 19, day 10: HACK A THON DAY. The software worked fine (well most of the times). But hardware disappointed me. Literally noting worked except for the servo motor. But we still landed 2nd runner up😁. Man I was hoping for the trophy, but I guess better luck next time🥱.
+
+### THE END  ###
