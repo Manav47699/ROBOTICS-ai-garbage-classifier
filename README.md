@@ -1,34 +1,82 @@
-# ROBOTICS-ai-garbage-classifier
+# ♻️ AI Garbage Classifier | TechnoMorph Hackathon 🛠️
 
--> I will be posting my progress report here :)).
+This repository contains all the **python code**, **TinkerCAD circuit simulations**, and our **final presentation** for the TechnoMorph Hackathon, where our project — an AI-powered smart garbage classifier — proudly won **🏆 2nd Runner-up**!
 
-# june 28 2025, day 1: Planned my 2nd ROBOTICS project to be a AI_garbage_classifier_system after PID line follower robot.
--> researched about the roadmap on achiving this product and also search for the ways to make it most effective.
+---
 
-# june 29 2025, day 2: Discovered about OpenCV for webcamp acess and mediapipe for Hand gesture tracking
--> downloaded "openCV" and "mediapipe" and got it all working with the help of an AI generated python script.
+## 🚀 Project Summary
 
-# june 30 2025, day 3: Build my 1st test custom CNN model. Needs a lot of work as of now. Will try transfer learning tomorrow
--> build/downloaded pen_paper_classifier with my own dataset
+Our system uses a combination of **AI**, **computer vision**, **serial communication** and **IoT** to classify waste as **plastic** or **paper**, and automatically dispose it into the correct bin using servo motors. It's an end-to-end automation solution that merges software intelligence with hardware control.
 
-# july 1, day 4:tried building a model with my own data set. If works fine in validation dataaset but flops on random testing data
--> tired a lot to debug this problem but i wasn't succesful☹.
+---
 
-# july 2, day 5: researched a bit about YOLO as my custom CNN was acting way too inaccurate
--> Wrote the code for YOLO with AI's help but I took a lot more time to train than I had initally guessed. SO I WILL DO IT TOMMOROW.
+## 🧠 Software Overview
 
-# july 3, day 6: setup yolov5 and got it runing somehow after hours of chatgpting🥱
--> built my first yolo model, downloaded it and set up everything.
+| Technology     | Purpose                                         |
+|----------------|--------------------------------------------------|
+| `TensorFlow / Keras` | Custom image classification model |
+| `YOLOv5`       | Real-time object detection (e.g. plastic vs paper) |
+| `MediaPipe`    | Hand gesture detection & tracking                |
+| `OpenCV`       | Webcam input & frame processing                  |
+| `com0com`      | Virtual serial communication between Python & Arduino |
 
-# july 4, day 7: learned how to use TinkerCAD for ckt designing and testing.
--> created a account in TinkerCAD and built a few ckts testing different components such as Arduino UNO, leds, IR and ultrasonic sensors and many more !
+> 🔧 We’ve structured the codebase into multiple experimental scripts — each exploring different combinations of these technologies.
 
-# july 5, day 8: Design a demo hack-a-thon project's ckt in tinkerCAD and it works 😁.
--> here the link to the ckt --> https://www.tinkercad.com/things/2TMN1thgRsH-techo-morph-project
+---
 
-# july 16, day 9: Connect the python code in VSCODE with the CPP code in Arduino IDE with the help of virtual serial communication. AND IT WORK😎😎😎😎. Man sometimes I feel like a true GENIUS
--> used this -> https://freevirtualserialports.com/ . also fuck gemini. that fool couldn't solve in 3 hrs what chatGPT did in 15 mins.
+## 🔌 Hardware Overview
 
-# july 19, day 10: HACK A THON DAY. The software worked fine (well most of the times). But hardware disappointed me. Literally noting worked except for the servo motor. But we still landed 2nd runner up😁. Man I was hoping for the trophy, but I guess better luck next time🥱.
+| Component            | Role                                                      |
+|----------------------|-----------------------------------------------------------|
+| `Arduino UNO`        | Main microcontroller                                      |
+| `Bluetooth Module`   | Wireless communication (alternative to USB)              |
+| `IR Sensor`          | Detects user's hand after garbage is thrown              |
+| `Ultrasonic Sensors` | Detects if the bin is full                                |
+| `Servo Motors`       | Controls the lid of garbage bins                          |
+| `LED`                | Visual signal indicators (success, overflow, etc.)       |
 
-### THE END  ###
+---
+
+## 🧭 System Workflow
+
+<img width="1350" height="569" alt="workflow" src="https://github.com/user-attachments/assets/2ff5c47e-d707-4c71-b14c-f877bc2b64af" />
+
+---
+
+## 🔬 TinkerCAD Simulation (Circuit)
+
+▶ **[Click to Open Simulation](https://www.tinkercad.com/things/2TMN1thgRsH-techo-morph-project)**  
+Simulates the hardware control logic of our smart bin.
+
+---
+
+## 🖼️ Gallery
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/642c3965-8cd8-41f3-bcb4-14a1f8772d29" width="100%"/></td>
+    <td><img src="https://github.com/user-attachments/assets/4b3ec6b8-e9c1-46fa-940e-908d196245f1" width="100%"/></td>
+    <td><img src="https://github.com/user-attachments/assets/79e1d0a3-d133-4418-8b9b-99314439d7be" width="100%"/></td>
+  </tr>
+</table>
+
+---
+
+## 🏁 Achievements
+
+✅ 2nd Runner-Up at **TechnoMorph Hackathon 2025**  
+✅ Integrated real-time AI + hardware  
+✅ Hands-free, gesture-enabled interaction  
+✅ Full-cycle automation — from classification to disposal
+
+---
+
+## 💡 Future Enhancements
+
+- [ ] Add voice feedback using Text-to-Speech (TTS)
+- [ ] Integrate overflow detection with real IR sensors
+- [ ] Deploy a web dashboard for monitoring and reporting
+
+---
+
+> Made with 💚 by [TEAM BINFINITY].
